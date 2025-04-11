@@ -40,3 +40,6 @@
 .flex-flox-c{
     flex-flow: column;
 }
+.flex-a-d{
+    align-items: right;
+}
