@@ -1,4 +1,39 @@
 .form_01{
     min-height: 15em;
-    border:1px solid grey
+    border:1px solid rgb(48, 48, 48);
+    border-radius:15px;
+    padding: 1em;
+}
+
+
+form input{
+    margin-bottom: 10px;
+}
+.header{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+}
+.menu>li>a{
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Opcional: mantiene el color original del texto */
+    
+}
+.menu>li>a:hover{
+    background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+    color: #000; /* Cambia el color del texto al pasar el mouse */
+    transform: scale(1.1); /* Aumenta el tamaño del texto al pasar el mouse */
+    text-shadow: 10px;
+    display: block;
+}
+.redes{
+    width: 20px; /* Ajusta el ancho */
+  height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 5px; /* Espacio entre las imágenes */
+
+}
+.footer{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
 }

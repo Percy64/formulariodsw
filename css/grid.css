@@ -43,3 +43,7 @@
 .flex-a-d{
     align-items: right;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+  }
